@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.audio.domradio" name="[COLOR red]Domradio.de[/COLOR]" version="1.0.0" provider-name="adiko01">
+    <requires>
+		<import addon="xbmc.python" version="2.26.0"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="addon.py">
+		<provides>audio</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<license>CC-BY-SA-4.0</license>
+		<summary lang="de_DE">Domradio.de</summary>
+		<description lang="de_DE">
+			Spielt das Kölner Domradio
+			https://www.domradio.de/
+		</description>
+		<summary lang="en_GB">Domradio.de</summary>
+		<description lang="en_GB">
+			Plays the Domeradio from Colonge (Germany)
+			https://www.domradio.de/
+		</description>
+		<language>de</language>
+		<email>dev@adiko01.de</email>
+		<source>https://github.com/adiko01/plugin.audio.domradio</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+			<fanart>resources/fanart.jpg</fanart>
+		</assets>
+	</extension>
+</addon>
